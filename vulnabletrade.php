@@ -1,8 +1,7 @@
 <?php
 // vulnerable/trade.php
-// "How to vuln Nuglox" — vulnerable demo (annotated, mocking tone)
-// WARNING: educational only. Do not use on real systems.
-
+// "How to vuln Nuglox"
+// shit ass code
 require_once($_SERVER['DOCUMENT_ROOT']."/main/nav.php");
 
 if(!$isloggedin) header("location: /");
