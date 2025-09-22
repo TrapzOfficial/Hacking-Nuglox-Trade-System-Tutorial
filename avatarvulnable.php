@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 // [HELPER FUNCTIONS] For fetching current colors and items. No caching, multiple queries for same data (performance meh).
-function getUserColorsAndBodyType($user) {
+function getUserColorsAndBodyType($user) { //blublublublbulbu lazypreview
     return [
         'colors' => [
             'head' => $user->headc ?: '#d2a679',
